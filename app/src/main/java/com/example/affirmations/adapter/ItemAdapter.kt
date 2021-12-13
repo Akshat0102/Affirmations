@@ -18,7 +18,7 @@ class ItemAdapter(private val context: Context, private val dataset: List<Affirm
     //Each data item is just an Affirmation Object.
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.item_title)
-        val imageView : ImageView = view.findViewById(R.id.item_image)
+        val imageView: ImageView = view.findViewById(R.id.item_image)
     }
 
     //create a new view
